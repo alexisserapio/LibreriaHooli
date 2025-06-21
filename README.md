@@ -17,12 +17,13 @@ Esta Webapp desarrollada en lenguaje PHP funciona para administrar una tienda de
 
 ## 📲 In-app
 - Al entrar al sitio, se nos muestra la página principal, donde observamos un dashboard desplegando los libros en inventario.
-<img src="https://github.com/alexisserapio/AppQR/blob/master/images/1.png" alt="Captura de Pantalla sobre la app en el m贸vil y su interfaz principal" width="450" height="330">
+<img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/1.png" alt="Captura de Pantalla sobre la app en el m贸vil y su interfaz principal" width="600" height="280">
 
 ---
-- Al moverse a la secci贸n "Esc谩ner de c贸digos QR" se nos solicita conceder el permiso para utilizar la c谩mara.
-- Realizamos el escaneo.
-<img src="https://github.com/alexisserapio/AppQR/blob/master/images/2.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="450" height="330">
+- Las secciones 'Insertar Libro', 'Eliminar Libro' y 'Actualizar Stock' son muy parecidas al ser secciones CRUD.
+<img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/2.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="600" height="280">
+<img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/3.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="600" height="280">
+<img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/4.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="600" height="280">
 
 ---
 - Al moverse a la secci贸n "Generador de vCards QR" se nos solicita conceder el permiso para acceder a los contactos.
