@@ -26,15 +26,16 @@ Esta Webapp desarrollada en lenguaje PHP funciona para administrar una tienda de
 <img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/4.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="600" height="280">
 
 ---
-- Al moverse a la secci贸n "Generador de vCards QR" se nos solicita conceder el permiso para acceder a los contactos.
-- Colocamos en el formulario la informaci贸n que queremos que contenga la vCard.
-<img src="https://github.com/alexisserapio/AppQR/blob/master/images/3.png" alt="Captura de Pantalla sobre el apartado de generar QR" width="450" height="330">
+- Dentro de la sección "Stock por Sucursal" podemos consultar la cantidad de libros que existen en cada sucursal de acuerdo al id del libro, en esta sección se nos despliega un BLOB para observar la portada del libro.
+<img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/5.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="600" height="280">
 
 ---
-- Despliegue del c贸digo QR generado.
-<img src="https://github.com/alexisserapio/AppQR/blob/master/images/4.png" alt="Captura de Pantalla sobre el QR generado" width="150" height="330">
+- La sección de pedidos es una que idealmente pueden acceder tanto los administradores de la librería como los clientes de dicha tienda, en ella se puede realizar un pedido de acuerdo al libro solicitado.
+- Al momento de buscar dicho pedido se nos despliega una tabla con la información del libro solicitado, desplegando los BLOBs tanto de la portada de dicho libro, así como un video con una reseña para que el usuario pueda consultarlo.
+<img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/6.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="600" height="280">
+<img src="https://github.com/alexisserapio/LibreriaHooli/blob/main/images/7.png" alt="Captura de Pantalla sobre el apartado de escaneo QR" width="600" height="280">
 
-## 馃摚 To-do
-- Modificar las restricciones puestas dentro del lector QR para poder recibir todo tipo de c贸digos QR.
-- Procurar mejorar el dise帽o de la interfaz para tener un dise帽o m谩s moderno y actualizado.
-- Implementar la generaci贸n de c贸digos QR de todo tipo para que el usuario pueda utilizar estos QR en procesos personales.
+## 📣 To-do
+- Darle una mejor identidad a la marca, esto para poder crear una interfaz más intuitiva.
+- Se puede hacer uso de triggers SQL para un mejor control sobre los accesos a la base de datos para atrapar errores o valores incorrectos.
+- Mejorar la seguridad e implementar logs para rastrear como se hace uso de la aplicación, ya que accede directamente la base de datos.
